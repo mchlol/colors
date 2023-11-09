@@ -1,34 +1,184 @@
 [
     {
+        "name": "Viva Magenta",
+        "pantone": "18-1750",
+        "hex": "#BE3455",
+        "year": "2023",
+        "color": "red"
+    },
+    {
+        "name": "Very Peri",
+        "pantone": "17-3938",
+        "hex": "#6667AB",
+        "year": "2022",
+        "color": "blue"
+    },
+    {
         "name": "Illuminating",
-        "hex": "#F5DF4D"
+        "pantone": "13-0647",
+        "hex": "#F5DF4D",
+        "year": "2021",
+        "color": "yellow"
+    },
+    {
+        "name": "Ultimate Gray",
+        "pantone": "17-5104",
+        "hex": "#939597",
+        "year": "2021",
+        "color": "gray"
     },
     {
         "name": "Classic Blue",
-        "hex": "#0f4c81"
+        "pantone": "19-4052",
+        "hex": "#0f4c81",
+        "year": "2020",
+        "color": "blue"
     },
     {
         "name": "Living Coral",
-        "hex": "#FA7268"
+        "pantone": "16-1546",
+        "hex": "#FA7268",
+        "year": "2019",
+        "color": "orange"
     },
     {
         "name": "Ultra Violet",
-        "hex": "#5f4b8b"
+        "pantone": "18-3838",
+        "hex": "#5f4b8b",
+        "year": "2018",
+        "color": "purple"
     },
     {
         "name": "Greenery",
-        "hex": "#88b04b"
+        "pantone": "15-0343",
+        "hex": "#88b04b",
+        "year": "2017",
+        "color": "green"
     },
     {
         "name": "Rose Quartz",
-        "hex": "#F7CAC9"
+        "pantone": "13-1520",
+        "hex": "#F7CAC9",
+        "year": "2016",
+        "color": "pink"
+    },
+    {
+        "name": "Serenity",
+        "pantone": "15-3919",
+        "hex": "#92A8D1",
+        "year": "2016",
+        "color": "blue"
     },
     {
         "name": "Marsala",
-        "hex": "#B57170"
+        "pantone": "18-1438",
+        "hex": "#B57170",
+        "year": "2015",
+        "color": "pink"
     },
     {
         "name": "Radiant Orchid",
-        "hex": "#b067a1"
+        "pantone": "18-3224",
+        "hex": "#b067a1",
+        "year": "2014",
+        "color": "purple"
+    },
+    {
+        "name": "Emerald",
+        "pantone": "17-5641",
+        "hex": "#009473",
+        "year": "2013",
+        "color": "green"
+    },
+    {
+        "name": "Tangerine Tango",
+        "pantone": "17-1463",
+        "hex": "#DD4124",
+        "year": "2012",
+        "color": "orange"
+    },
+    {
+        "name": "Honeysuckle",
+        "pantone": "18-2120",
+        "hex": "#D94F70",
+        "year": "2011",
+        "color": "pink"
+    },
+    {
+        "name": "Turquoise",
+        "pantone": "15-5519",
+        "hex": "#45B5AA",
+        "year": "2010",
+        "color": "green"
+    },
+    {
+        "name": "Mimosa",
+        "pantone": "14-0848",
+        "hex": "#F0C05A",
+        "year": "2009",
+        "color": "yellow"
+    },
+    {
+        "name": "Blue Iris",
+        "pantone": "18-3943",
+        "hex": "#5A5B9F",
+        "year": "2008",
+        "color": "blue"
+    },
+    {
+        "name": "Chili Pepper",
+        "pantone": "19-1557",
+        "hex": "#9B1B30",
+        "year": "2007",
+        "color": "red"
+    },
+    {
+        "name": "Sand Dollar",
+        "pantone": "13-1106",
+        "hex": "#DECDBE",
+        "year": "2006",
+        "color": "gray"
+    },
+    {
+        "name": "Blue Turquoise",
+        "pantone": "15-5217",
+        "hex": "#53B0AE",
+        "year": "2005",
+        "color": "blue"
+    },
+    {
+        "name": "Tigerlily",
+        "pantone": "17-1456",
+        "hex": "#E2583E",
+        "year": "2004",
+        "color": "orange"
+    },
+    {
+        "name": "Aqua Sky",
+        "pantone": "14-4811",
+        "hex": "#7BC4C4",
+        "year": "2003",
+        "color": "blue"
+    },
+    {
+        "name": "True Red",
+        "pantone": "19-1664",
+        "hex": "#BF1932",
+        "year": "2002",
+        "color": "red"
+    },
+    {
+        "name": "Fuchsia Rose",
+        "pantone": "17-2031",
+        "hex": "#C74375",
+        "year": "2001",
+        "color": "pink"
+    },
+    {
+        "name": "Cerulean",
+        "pantone": "15-4020",
+        "hex": "#9BB7D4",
+        "year": "2001",
+        "color": "blue"
     }
 ]
