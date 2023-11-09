@@ -15,6 +15,25 @@ body,
 
 .color-page {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 2em;
+}
+
+.color-page button {
+  padding: 0.5em 1em;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.color-page button:hover,
+.color-page button:focus {
+  border: 1px solid black;
+}
+
+.color-page button:active {
+  opacity: 0.8;
 }

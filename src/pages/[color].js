@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import colors from '../data/colors.json'
 
 // getStaticPaths() is the function Next looks for to generate static pages for this template. it can use data from your file system or from an API to generate paths.
@@ -22,6 +23,7 @@ export async function getStaticProps( {params}) {
 export default function Color ( {color} ) {
     return <div className='color-page' style={{ backgroundColor: color.hex}}>
         <h1>{color.name}</h1>
+        <Link href="/"><button>Back</button></Link>
     </div>
 }
 
