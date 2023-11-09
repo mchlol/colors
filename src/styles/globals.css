@@ -1,3 +1,8 @@
+:root {
+  --bgColour: #1f1c37;
+  --textColour: whitesmoke;
+}
+
 html,
 body,
 #__next,
@@ -11,6 +16,8 @@ body,
   display: block;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--bgColour);
+  color: var(--textColour);
 }
 
 a,
@@ -23,11 +30,11 @@ main {
   height: 100%;
   display: flex;
   justify-content: center;
-  background-color: #1f1c37;
 }
 
 .card {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   justify-items: stretch;
@@ -36,17 +43,18 @@ main {
 ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 2rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+  align-content: start;
   gap: 2rem;
 }
 
 ul a {
   text-decoration: none;
-  padding: 1em;
+  padding: 1rem;
   border: 1px solid gray;
   border-radius: 8px;
   background-color: #1f1c37;
@@ -56,6 +64,11 @@ ul a {
 ul a:hover,
 ul a:focus {
   background-color: whitesmoke;
+}
+
+ul h2,
+ul p {
+  margin: 0.5rem;
 }
 
 .color-page {
