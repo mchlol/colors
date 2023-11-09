@@ -16,12 +16,16 @@ export default function Home() {
       <ul className="color-list">
       {colors.map(color => (
         
-          <Link className="card" href={`/${color.name}`}>
+          <Link key={color.hex} className="card" href={`/${color.name}`}>
             <li className="card">
               <h2 
               style={{color: color.hex}}>
                 {color.name}
               </h2>
+              
+              {
+                color.year && <p style={{color: color.hex}}>{color.year}</p>
+              }
             </li>
           </Link>
         
