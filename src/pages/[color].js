@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import colors from '../data/colors.json'
+import React from 'react'
 
 // getStaticPaths() is the function Next looks for to generate static pages for this template. it can use data from your file system or from an API to generate paths.
 export async function getStaticPaths() {
@@ -21,9 +22,36 @@ export async function getStaticProps( {params}) {
 
 // create the component and pass it the props object created by getStaticProps
 export default function Color ( {color} ) {
-    return <div className='color-page' style={{ backgroundColor: color.hex}}>
+
+    const [alertActive, setAlertActive] = React.useState(false);
+
+    const copyToClipboard = async (text) => {
+        try {
+            await navigator.clipboard.writeText(text);
+            console.log('Copied: ',text);
+            setAlertActive(true);
+            setTimeout( () => {
+                setAlertActive(false)
+            },1500)
+
+        } catch (err) {
+            console.log('Copy failed', err);
+        }
+    }
+
+    return (
+    <div className='color-page' style={{ backgroundColor: color.hex}}>
         <h1>{color.name}</h1>
+        <h2 onClick={() => copyToClipboard(color.hex)}>{color.hex.toUpperCase()}</h2>
         <Link href="/"><button>Back</button></Link>
+
+        { alertActive && <div className="confirm-copy">
+            <p>Copied!</p>
+        </div>
+        }
+
     </div>
+   
+    )
 }
 

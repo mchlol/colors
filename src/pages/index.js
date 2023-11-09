@@ -7,18 +7,29 @@ import colors from '../data/colors.json'
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <Head>
         <title>Colors!</title>
         <meta name="description" content="App that displays pretty colours to learn Next!" />
       </Head>
 
+      <ul className="color-list">
       {colors.map(color => (
-        <Link href={`/${color.name}`}>
-          <h2>{color.name}</h2>
-        </Link>
+        
+          <Link className="card" href={`/${color.name}`}>
+            <li className="card">
+              <h2 
+              style={{color: color.hex}}>
+                {color.name}
+              </h2>
+            </li>
+          </Link>
+        
       ))}
 
-    </div>
+      </ul>
+      
+
+    </main>
   )
 }

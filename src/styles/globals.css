@@ -13,6 +13,51 @@ body,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+a,
+button,
+.color-page h2 {
+  cursor: pointer;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #1f1c37;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: stretch;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+ul a {
+  text-decoration: none;
+  padding: 1em;
+  border: 1px solid gray;
+  border-radius: 8px;
+  background-color: #1f1c37;
+  transition: background-color 0.2s ease-in-out;
+}
+
+ul a:hover,
+ul a:focus {
+  background-color: whitesmoke;
+}
+
 .color-page {
   display: flex;
   flex-direction: column;
@@ -31,9 +76,14 @@ body,
 
 .color-page button:hover,
 .color-page button:focus {
-  border: 1px solid black;
+  opacity: 0.8;
 }
 
 .color-page button:active {
-  opacity: 0.8;
+  opacity: 0.5;
+}
+
+.confirm-copy {
+  position: absolute;
+
 }
