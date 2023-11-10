@@ -12,7 +12,7 @@ This is just a little test project to get familiar with Next.js, based on [Ali S
 
 - Use a random display font for the header on each colour's page. 
 - deploy to netlify with any API keys hidden (dotenv to netlify functions)
-- add a contrast key to the data to determine the colour page text colour 
+- add a contrast key to the data to determine the colour page text colour - something along the lines of `data-theme`
 - add some searching or filtering functionality to find colours by year or colour group. 
 - generate a moodboard on colour pages using [unsplash API](https://unsplash.com/developers)  
 <!-- - look into making my own API from the (modified - no copyright infringment!) data with node & express.  -->
@@ -20,9 +20,6 @@ This is just a little test project to get familiar with Next.js, based on [Ali S
 ## Outcomes
 
 ### Struggles
-
-#### Remembering to use 'color' instead of 'colour'
-By convention syntax uses American spelling and I am not American so need to try to remember to spell it that way!
 
 #### Getting the random Google font
 
