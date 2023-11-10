@@ -1,5 +1,5 @@
 # Colors
-This is just a little test project to get familiar with Next.js, based on [Ali Spittel's Next tutorial]((https://welearncode.com/beginners-guide-nextjs/)). It uses some predefined data on Pantone colour of the year from the past few years (name and hex), and creates a page using that data to show the colour name and background colour. After working in print for so long it's nice to have a little crossover!  
+This is just a little test project to get familiar with Next.js, based on [Ali Spittel's Next tutorial](https://welearncode.com/beginners-guide-nextjs/). It uses some predefined data on Pantone colour of the year from the past few years (name and hex), and creates a page using that data to show the colour name and background colour. After working in print for so long it's nice to have a little crossover!  
 
 ### I added:
 - styles for the home page 
