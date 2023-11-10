@@ -1,9 +1,14 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import fetchRandomFont from '@/utils'
 
-export default function Document() {
+const Document = ( { randomFont } ) => {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        {randomFont && (
+          <link rel="stylesheet" href={`https://fonts.googleapis.com/css2?family=${randomFont.split(' ').join('+')}`} />
+        )}
+      </Head>
       <body>
         <Main />
         <NextScript />
@@ -11,3 +16,11 @@ export default function Document() {
     </Html>
   )
 }
+
+Document.getInitalProps = async (ctx) => {
+  const randomFont = await fetchRandomFont();
+  const initialProps = await Document.getInitalProps(ctx);
+  return { ...initialProps, randomFont };
+};
+
+export default Document;

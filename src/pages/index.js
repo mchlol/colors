@@ -6,12 +6,15 @@ import Link from 'next/link'
 import colors from '../data/colors.json'
 
 export default function Home() {
+
   return (
-    <main>
+    <div className="home-page">
       <Head>
         <title>Colors!</title>
         <meta name="description" content="App that displays pretty colours to learn Next!" />
       </Head>
+
+      <h1>Pantone Color of the Year</h1>
 
       <ul className="color-list">
       {colors.map(color => (
@@ -34,6 +37,6 @@ export default function Home() {
       </ul>
       
 
-    </main>
+    </div>
   )
 }
