@@ -4,6 +4,7 @@
         "pantone": "18-1750",
         "hex": "#BE3455",
         "year": "2023",
+        "contrast": "light",
         "color": "red"
     },
     {
@@ -11,6 +12,7 @@
         "pantone": "17-3938",
         "hex": "#6667AB",
         "year": "2022",
+        "contrast": "light",
         "color": "blue"
     },
     {
@@ -18,6 +20,7 @@
         "pantone": "13-0647",
         "hex": "#F5DF4D",
         "year": "2021",
+        "contrast": "dark",
         "color": "yellow"
     },
     {
@@ -25,6 +28,7 @@
         "pantone": "17-5104",
         "hex": "#939597",
         "year": "2021",
+        "contrast": "dark",
         "color": "gray"
     },
     {
@@ -32,6 +36,7 @@
         "pantone": "19-4052",
         "hex": "#0f4c81",
         "year": "2020",
+        "contrast": "light",
         "color": "blue"
     },
     {
@@ -39,6 +44,7 @@
         "pantone": "16-1546",
         "hex": "#FA7268",
         "year": "2019",
+        "contrast": "dark",
         "color": "orange"
     },
     {
@@ -46,6 +52,7 @@
         "pantone": "18-3838",
         "hex": "#5f4b8b",
         "year": "2018",
+        "contrast": "light",
         "color": "purple"
     },
     {
@@ -53,6 +60,7 @@
         "pantone": "15-0343",
         "hex": "#88b04b",
         "year": "2017",
+        "contrast": "dark",
         "color": "green"
     },
     {
@@ -60,6 +68,7 @@
         "pantone": "13-1520",
         "hex": "#F7CAC9",
         "year": "2016",
+        "contrast": "dark",
         "color": "pink"
     },
     {
@@ -67,6 +76,7 @@
         "pantone": "15-3919",
         "hex": "#92A8D1",
         "year": "2016",
+        "contrast": "dark",
         "color": "blue"
     },
     {
@@ -74,6 +84,7 @@
         "pantone": "18-1438",
         "hex": "#955251",
         "year": "2015",
+        "contrast": "light",
         "color": "red"
     },
     {
@@ -81,6 +92,7 @@
         "pantone": "18-3224",
         "hex": "#b067a1",
         "year": "2014",
+        "contrast": "light",
         "color": "purple"
     },
     {
@@ -88,6 +100,7 @@
         "pantone": "17-5641",
         "hex": "#009473",
         "year": "2013",
+        "contrast": "light",
         "color": "green"
     },
     {
@@ -95,6 +108,7 @@
         "pantone": "17-1463",
         "hex": "#DD4124",
         "year": "2012",
+        "contrast": "light",
         "color": "orange"
     },
     {
@@ -102,6 +116,7 @@
         "pantone": "18-2120",
         "hex": "#D94F70",
         "year": "2011",
+        "contrast": "light",
         "color": "pink"
     },
     {
@@ -109,6 +124,7 @@
         "pantone": "15-5519",
         "hex": "#45B5AA",
         "year": "2010",
+        "contrast": "dark",
         "color": "green"
     },
     {
@@ -116,6 +132,7 @@
         "pantone": "14-0848",
         "hex": "#F0C05A",
         "year": "2009",
+        "contrast": "dark",
         "color": "yellow"
     },
     {
@@ -123,6 +140,7 @@
         "pantone": "18-3943",
         "hex": "#5A5B9F",
         "year": "2008",
+        "contrast": "light",
         "color": "blue"
     },
     {
@@ -130,6 +148,7 @@
         "pantone": "19-1557",
         "hex": "#9B1B30",
         "year": "2007",
+        "contrast": "light",
         "color": "red"
     },
     {
@@ -137,6 +156,7 @@
         "pantone": "13-1106",
         "hex": "#DECDBE",
         "year": "2006",
+        "contrast": "dark",
         "color": "gray"
     },
     {
@@ -144,6 +164,7 @@
         "pantone": "15-5217",
         "hex": "#53B0AE",
         "year": "2005",
+        "contrast": "dark",
         "color": "blue"
     },
     {
@@ -151,6 +172,7 @@
         "pantone": "17-1456",
         "hex": "#E2583E",
         "year": "2004",
+        "contrast": "light",
         "color": "orange"
     },
     {
@@ -158,6 +180,7 @@
         "pantone": "14-4811",
         "hex": "#7BC4C4",
         "year": "2003",
+        "contrast": "dark",
         "color": "blue"
     },
     {
@@ -165,6 +188,7 @@
         "pantone": "19-1664",
         "hex": "#BF1932",
         "year": "2002",
+        "contrast": "light",
         "color": "red"
     },
     {
@@ -172,6 +196,7 @@
         "pantone": "17-2031",
         "hex": "#C74375",
         "year": "2001",
+        "contrast": "dark",
         "color": "pink"
     },
     {
@@ -179,6 +204,7 @@
         "pantone": "15-4020",
         "hex": "#9BB7D4",
         "year": "2000",
+        "contrast": "dark",
         "color": "blue"
     }
 ]

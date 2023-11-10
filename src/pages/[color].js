@@ -5,7 +5,6 @@ import Head from 'next/head'
 import axios from 'axios'
 
 const dotenv = require("dotenv").config();
-// const API_KEY = 'AIzaSyBh0Ilj0J-phMsQFpvZNwSBwdz4TVKCNfA';
 
 // getStaticPaths() is the function Next looks for to generate static pages for this template. it can use data from your file system or from an API to generate paths.
 export async function getStaticPaths() {
