@@ -5,7 +5,7 @@ import Head from 'next/head'
 import axios from 'axios'
 
 const dotenv = require("dotenv").config();
-const API_KEY = 'AIzaSyBh0Ilj0J-phMsQFpvZNwSBwdz4TVKCNfA';
+// const API_KEY = 'AIzaSyBh0Ilj0J-phMsQFpvZNwSBwdz4TVKCNfA';
 
 // getStaticPaths() is the function Next looks for to generate static pages for this template. it can use data from your file system or from an API to generate paths.
 export async function getStaticPaths() {
@@ -44,7 +44,7 @@ export default function Color ( {color } ) {
     }
   
     React.useEffect( () => {
-        axios.get(`https://www.googleapis.com/webfonts/v1/webfonts?key=${API_KEY}`)
+        axios.get(`https://www.googleapis.com/webfonts/v1/webfonts?key=${process.env.NEXT_PUBLIC_GOOGLEFONTS_API_KEY}`)
         .then( res => {
             const data = res.data.items;
             // get an array of display fonts only
