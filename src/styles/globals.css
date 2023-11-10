@@ -17,13 +17,22 @@ body,
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: var(--bgColour);
-  color: var(--textColour);
+  color: var(--textColour)
 }
 
 a,
 button,
 .color-page h2 {
   cursor: pointer;
+}
+
+a {
+  color: var(--textColour);
+  opacity: 0.8;
+}
+
+a:hover {
+  opacity: 1;
 }
 
 main {
@@ -79,6 +88,10 @@ ul p {
   gap: 2em;
 }
 
+.color-name {
+  text-align: center;
+}
+
 .color-page button {
   padding: 0.5em 1em;
   border: 1px solid transparent;
@@ -98,5 +111,4 @@ ul p {
 
 .confirm-copy {
   position: absolute;
-
 }

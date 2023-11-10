@@ -41,7 +41,12 @@ export default function Color ( {color} ) {
 
     return (
     <div className='color-page' style={{ backgroundColor: color.hex}}>
-        <h1>{color.name}</h1>
+        <div className="color-name">
+            <h1>{color.name}</h1>
+            <h2>{color.year}</h2>
+            <p><a href={'https://www.pantone.com/connect/' + color.pantone + '-tcx'} target="_blank">Pantone {color.pantone}</a></p>
+        </div>
+        
         <h2 onClick={() => copyToClipboard(color.hex)}>{color.hex.toUpperCase()}</h2>
         <Link href="/"><button>Back</button></Link>
 
